@@ -6,10 +6,19 @@
 #------------------------------------------------
 # My ignored files
 #
-Sync.bat
-Sync.ps1
-*.xlsx
+[Ss]ync.*
 *.psd
+
+#------------------------------------------------
+# Common ignored files
+*.bak
+*.log
+*.tmp
+
+#------------------------------------------------
+# Common compiler ignored files
+[Bb]in
+[Oo]bj
 
 #------------------------------------------------
 # Windows ignored files
@@ -30,6 +39,11 @@ __recovery
 *.groupproj.local
 *.identcache
 *.tvsconfig
+
+#------------------------------------------------
+# Lazarus
+#
+*.lps
 
 #------------------------------------------------
 # Visual Studio
